@@ -1,9 +1,3 @@
-import * as pluralize from 'pluralize'
-/**
-* @Method: Returns the plural form of any noun.
-* @Param {string}
-* @Return {string}
-*/
-export function getPlural (str: any) : string {
-  return pluralize.plural(str)
+export function getAdd (op1: number, op2: number) : number {
+	return op1 + op2
 }
